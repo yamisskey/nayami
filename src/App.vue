@@ -27,36 +27,34 @@ header {
   display: inline-block;
   vertical-align: middle;
   margin-right: 1rem;
+  max-height: 3rem;
+  max-width: 3rem;
 }
 
 nav {
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: 12px;
-  text-align: center;
-  margin-top: 0.5rem;
-}
-
-nav a.router-link-exact-active {
-  color: var(--color-text);
-}
-
-nav a.router-link-exact-active:hover {
-  background-color: transparent;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 nav a {
-  display: inline-block;
-  padding: 0 1rem;
-  border-left: 1px solid var(--color-border);
+  color: #6a5dd8;
+  text-decoration: none;
+  margin-left: 1rem;
+  font-size: 1rem;
+  transition: color 0.3s;
 }
 
-nav a:first-of-type {
-  border: 0;
+nav a:hover {
+  color: #4b3bbd;
+  background-color: transparent; /* 背景色を透明に設定 */
 }
 
 main {
-  padding: 2rem;
+  padding: 5rem 2rem 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 </style>
