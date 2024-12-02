@@ -4,7 +4,7 @@ defineProps<{ msg: string }>()
 
 <template>
   <div class="hello">
-    <h1>悩み相談プラットフォーム「nayami」</h1>
+    <h1>悩み相談プラットフォーム「onayami」</h1>
   </div>
 </template>
 
